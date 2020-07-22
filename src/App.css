@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.Apps{
+    text-align: center !important;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    box-shadow: 0 10px 30px 0 rgba(355, 355, 365, 5.45) !important;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #ffffff !important;
+    background-color: black !important;
+}
+.App{
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    color: #ffffff !important;
+}
+p{
+    font-weight: bold;
+}
+.content{
+    margin: 20px !important;
+}
+#form-controls{
+    position: relative;
+    height: 30px;
+    border: none !important ;
+    border-bottom: 1px solid gray !important;
+    border-radius: 0px;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+}
+#form-controls:focus{
+    box-shadow: none !important;
+    border-bottom: 2px solid #222 !important;
+}
+.animated{
+    animation: up-down 1s ease-in-out infinite alternate-reverse both; 
+}
+
+@-webkit-keyframes up-down{
+    0%{
+      transform: translateX(10px);
+    }
+    100%{
+      transform: translateX(-10px);
+    }
+  }
+  @keyframes up-down{
+    0%{
+      transform: translateX(10px);
+    }
+    100%{
+      transform: translateX(-10px);
+    }
+  }
+@media(max-width:1200px){
+    .Apps{
+        width: 100%;    
+    }
+    body{
+        padding: 20px !important;
+    }
+    button{
+        margin-top: 10px !important;
+    }
+    .Link{
+        width: 500px;
+        height: 500px !important;
+        margin-right: 40px;
+    }
+    .Link{
+        font-size: 50px !important;
+    }
+    nav h1{
+        margin-left: 200px;
+    }
+}
